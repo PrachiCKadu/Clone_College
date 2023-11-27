@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: solid gray;
+  width: 700px;
+  height: 700px;
+  border: 7px solid black;
+  padding: 50px;
+  margin: 50px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {background-color: #008CBA;}
+</style>
+</head>
+<body>
+<form action="/action_page.php" method="get" target="_blank">
+<div>
+<center><h1>Admission Enquire Form</h1></center>
+<center><h3>St. John College of Humanities And Sciences,Palghar(Maharashtra)</h3></center>
+  Name (required)<br><br>
+  <input type="text" id="name" size="90" required><br><br><br>
+  Location (required)<br><br>
+  <input type="text" id="locatiom" size="90" required><br><br><br>
+  Mobile Number (required)<br><br>
+  <input type="tel" id="phone" size="90" required><br><br><br>
+  Your Email (required)<br><br>
+  <input type="email" id="email" size="90" required><br><br><br>
+Intrested Course<br><br>
+<select>  
+<option value="---Please Choose An Option---">------------------ Please Choose An Option --------------------</option> 
+<option value="First Year Of BSC Computer Science">First Year Of BSC Comuter Science</option>  
+<option value="First Year Of BSC Information Technology">First Year Of BSC Information Technology</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select> <br><br><br>
+<center><button class="button" size="90">Send</button></center>
+</div>
+</form>
+</body>
+</html>
