@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		h1{
+			text-align:center;
+			color:rgb(147, 8, 147);
+		}
+	</style></head>
+
+	<body>
+	<center><h4>Aldel Education Trust's</h4>
+	<h1>ST.JOHN COLLEGE OF HUMANITIES AND SCIENCES</h1>
+	<h4><a href="https://www.sjchs.edu.in/">Official Website</a></h4></center>
+	<center><h2>(A Christian Religious Minority Institution)</h2>
+		<hr style="height:3px;border-width:0;color:rgb(188, 11, 188);background-color:rgb(173, 12, 173)">
+		<h3>Affiliated to University Of Mumbai</h3>
+		<p><a href="home.html">HOME |</a>
+			<a href="about.html">ABOUT US |</a>
+			<a href="programs.html">PROGRAMS |</a>
+			<a href="staff.html">STAFF |</a>
+			<a href="student.html">STUDENT CORNER |</a>
+			<a href="campus.html">CAMPUS LIFE |</a>
+			<a href="accreditation.html">ACCREDITATION |</a>
+			<a href="admision.html">ADMISSION |</a>
+			<a href="feedback.html">FEEDBACK |</a>
+			<a href="contact.html">CONTACT US</a></p></center>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height:9px;
+  width: 9px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="C:\Users\win10\Downloads\college.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="C:\Users\win10\Downloads\clg.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="C:\Users\win10\Downloads\clg2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="C:\Users\win10\Downloads\clg4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5/ 6</div>
+  <img src="C:\Users\win10\Downloads\clg5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="C:\Users\win10\Downloads\clg3.jpg" style="width:100%">
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += "active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+
+<h2>WELCOME NOTE</h2>
+<hr style="height:2px;border-width:0;color:#f8ed20;background-color:yellow">
+<p>Over the last decade the number of foreign travelers to India is on the rise. This is not only for the increasing business opportunities, but also because of India being a popular destination for medical tourism, rural tourism, heritage tourism, pleasure tourism and adventure tourism.<p>
+<h4>INTRODUCTION TO SJCHS<h4>
+<p>St John College of Humanities and Sciences (SJCHS) is in Palghar. SJCHS was inaugurated and blessed by Rt. Rev Dr Henry D’Souza – Bishop of Bellary Diocese on August 3, 2015.</p>
+<p>The educational facilities provided in the rural area will offer professional and technical education to less fortunate students also, enabling them to take up brilliant careers.</p>
+</body>
+</html>
